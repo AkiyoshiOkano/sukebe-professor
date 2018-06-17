@@ -1,0 +1,20 @@
+status: 301
+server: CloudFront
+date: Sun, 17 Jun 2018 10:32:21 GMT
+content-type: text/html
+content-length: 183
+connection: keep-alive
+location: https://atwiki.jp/assets/atwiki_logo-98f70ed1a24cbb0e3ea9ec177e7f4397770d60491d946ba39aaf97f791118f58.svg
+x-cache: Redirect from cloudfront
+via: 1.1 8885f7b0e4d698da00ac2f5d5627c145.cloudfront.net (CloudFront)
+x-amz-cf-id: 9Hh2qwqhVOCg7XRmV9gIHi1C39V7WmbZxSCo7mu_BOssz5_zscjtSQ==
+-x-permanent-redirect-url: https://atwiki.jp/assets/atwiki_logo-98f70ed1a24cbb0e3ea9ec177e7f4397770d60491d946ba39aaf97f791118f58.svg
+content-location: http://atwiki.jp/assets/atwiki_logo-98f70ed1a24cbb0e3ea9ec177e7f4397770d60491d946ba39aaf97f791118f58.svg
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>CloudFront</center>
+</body>
+</html>

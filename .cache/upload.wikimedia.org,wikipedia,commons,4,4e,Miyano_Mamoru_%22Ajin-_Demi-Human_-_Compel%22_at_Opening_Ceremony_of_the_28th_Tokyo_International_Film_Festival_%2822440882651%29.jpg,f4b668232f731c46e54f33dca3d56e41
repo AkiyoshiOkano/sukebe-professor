@@ -1,0 +1,14 @@
+status: 301
+date: Sun, 17 Jun 2018 11:37:39 GMT
+server: Varnish
+x-varnish: 310848991
+x-cache: cp5005 int
+x-cache-status: int-front
+set-cookie: WMF-Last-Access=17-Jun-2018;Path=/;HttpOnly;secure;Expires=Thu, 19 Jul 2018 00:00:00 GMT
+x-client-ip: 36.12.6.81
+location: https://upload.wikimedia.org/wikipedia/commons/4/4e/Miyano_Mamoru_%22Ajin-_Demi-Human_-_Compel%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822440882651%29.jpg
+content-length: 0
+connection: keep-alive
+-x-permanent-redirect-url: https://upload.wikimedia.org/wikipedia/commons/4/4e/Miyano_Mamoru_%22Ajin-_Demi-Human_-_Compel%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822440882651%29.jpg
+content-location: http://upload.wikimedia.org/wikipedia/commons/4/4e/Miyano_Mamoru_%22Ajin-_Demi-Human_-_Compel%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_%2822440882651%29.jpg
+

@@ -3,11 +3,13 @@
 import urllib.request
 from urllib.parse import quote
 import httplib2
-import json 
+import json
 import os
+import csv
+import pandas as pd
 
-API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-CUSTOM_SEARCH_ENGINE = "12345648954985648968:xxxxxxxxx"
+API_KEY = "AIzaSyCQdDqDTOxFc0qGvgCeud5emaVTrNyOznc"
+CUSTOM_SEARCH_ENGINE = "009015217896555758577:aappsrv04j4"
 
 def getImageUrl(search_item, total_num):
  img_list = []
@@ -30,13 +32,20 @@ def getImage(search_item, img_list):
    fn, ext = os.path.splitext(img_list[i])
    print(img_list[i])
    response, content = http.request(img_list[i])
-   with open(search_item+str(i)+ext, 'wb') as f:
+   with open(row[0] + "/" + search_item+str(i)+ext, 'wb') as f:
     f.write(content)
   except:
    print("failed to download images.")
    continue
 
 if __name__ == "__main__":
- img_list = getImageUrl("犬", 5)
- print(img_list)
- getImage("dog", img_list)
+ with open('av-actor-name.csv', 'r') as f:
+  reader = csv.reader(f)
+  header = next(reader) # ヘッダーを読み飛ばしたい時
+
+  for row in reader:
+    f = open('av-actor-name.csv', 'r')
+    print(row[0]) # 1行づつ取得できる
+    img_list = getImageUrl(row[0], 5)
+    print(img_list)
+    getImage(row[0], img_list)
