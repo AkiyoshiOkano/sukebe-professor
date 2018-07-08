@@ -8,8 +8,8 @@ import os
 import csv
 import pandas as pd
 
-API_KEY = "AIzaSyCQdDqDTOxFc0qGvgCeud5emaVTrNyOznc"
-CUSTOM_SEARCH_ENGINE = "009015217896555758577:aappsrv04j4"
+API_KEY = "AIzaSyAphe9JzKJk_TUPoRpQ7TnDrjPhQbJN3Ew"
+CUSTOM_SEARCH_ENGINE = "005724330152295882157:ztxb5pboahe"
 
 def getImageUrl(search_item, total_num):
  img_list = []
@@ -46,6 +46,6 @@ if __name__ == "__main__":
   for row in reader:
     f = open('av-actor-name.csv', 'r')
     print(row[0]) # 1行づつ取得できる
-    img_list = getImageUrl(row[0], 5)
+    img_list = getImageUrl(row[0] + "AND AV男優", 5)
     print(img_list)
     getImage(row[0], img_list)

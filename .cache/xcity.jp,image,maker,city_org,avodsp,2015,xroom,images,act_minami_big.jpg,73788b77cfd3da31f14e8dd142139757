@@ -1,0 +1,16 @@
+status: 301
+date: Sun, 08 Jul 2018 09:24:22 GMT
+server: Apache/2.4.20 (Unix)
+location: https://fs.xcity.jp/image/maker/city_org/avodsp/2015/xroom/images/act_minami_big.jpg
+content-length: 292
+content-type: text/html; charset=iso-8859-1
+-x-permanent-redirect-url: https://fs.xcity.jp/image/maker/city_org/avodsp/2015/xroom/images/act_minami_big.jpg
+content-location: https://xcity.jp/image/maker/city_org/avodsp/2015/xroom/images/act_minami_big.jpg
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://fs.xcity.jp/image/maker/city_org/avodsp/2015/xroom/images/act_minami_big.jpg">here</a>.</p>
+</body></html>
